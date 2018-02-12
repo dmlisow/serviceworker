@@ -1,6 +1,17 @@
-firebase.initializeApp({
-    messagingSenderId: '991847066382'
-});
+//firebase.initializeApp({
+//    messagingSenderId: '991847066382'
+//});
+
+ // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyA6BP6J2s9iBl8Y41N2gW7EzBpwKwRXhRc",
+    authDomain: "dmlisowbapp.firebaseapp.com",
+    databaseURL: "https://dmlisowbapp.firebaseio.com",
+    projectId: "dmlisowbapp",
+    storageBucket: "dmlisowbapp.appspot.com",
+    messagingSenderId: "991847066382"
+  };
+  firebase.initializeApp(config);
 
 
 var bt_register = $('#register');
