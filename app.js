@@ -278,7 +278,7 @@ function resetUI() {
 }
 
 function updateUIForPushPermissionRequired() {
-    bt_register.attr('disabled', 'disabled');
+   // bt_register.attr('disabled', 'disabled');
     resetUI();
 }
 
